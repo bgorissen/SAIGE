@@ -133,6 +133,8 @@ namespace VCF {
     uint32_t getN0(){return N0;}
     uint32_t getN(){return N;}
 
+    void closegenofile(){};
+
  };
  
 }

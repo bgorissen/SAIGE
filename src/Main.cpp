@@ -903,7 +903,6 @@ void setVCFobjInCPP(std::string t_vcfFileName,
             std::vector<std::string> & t_SampleInModel)
 {
   ptr_gVCFobj = new VCF::VcfClass(t_vcfFileName,
-		  	t_vcfFileIndex,
 				t_vcfField,
 				t_vcfFilterString,
 				false,
